@@ -1,0 +1,28 @@
+Day 1 Task:
+- Assume we have Inventory -> Class
+- Inventory has many books -> array of books
+- Each book has title, authen and ISBN --> properties for each book
+- The inventory should be able to  --> Methods
+	- List books --> getBooks
+	- Add new book
+	- Remove book by ISBN
+- The program should keep books in a file
+
+
+Bonus:
+	- Sorting books by ISBN
+	- Search books by:
+		- Title
+		- Auther
+		- ISBN
+	- Increase books count if book is inserted twice (have same ISBN) and update the title and auther if changed
+	- Display message if the input is empty or incorrect
+	
+Notes:
+	- 2 files are required:
+		- Books files (act as DB)
+		- Ruby runnable file
+	- Code delivery:
+		- Create github repo called "ITI_ruby_course" and create branch name called "day-1"
+		- Send the url of the branch to my gmail `johng.eskandar@gmail.com` having subject `ITI_{batch number}_Ruby_{your name}`
+	- Please DO NOT use any AI to assist, you can normally search the internet using google or documentations
